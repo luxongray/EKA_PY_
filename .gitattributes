@@ -1,0 +1,5 @@
+# GitHub 语言统计控制
+# GitHub 默认按文件字节数统计语言占比。本仓库为 backend(Python) + frontend(TypeScript) 的
+# monorepo，前端 TS/TSX 字节数略多会把主语言顶成 TypeScript。这里将前端目录标记为
+# 不参与语言统计，使仓库主语言显示为 Python（前端代码仍完整保留在仓库中，仅不计入语言占比）。
+frontend/** linguist-detectable=false
