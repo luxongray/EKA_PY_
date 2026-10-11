@@ -1,0 +1,24 @@
+[project]
+name = "eka-py"
+version = "0.1.0"
+description = "政务档案利用与分析智能体（EKA）Python 后端 —— FastAPI + LangChain，复刻自 Java 版"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "pymysql>=1.1",
+    "pydantic-settings>=2.0",
+    "python-multipart>=0.0.9",
+    "playwright>=1.40",
+    "cryptography>=50.0.2",
+    "langchain>=1.4",
+    "langchain-openai>=1.7",
+    "langchain-deepseek>=1.1.1",
+    "langchain-community>=0.4.2",
+    "pypdf>=6.20.0",
+    "docx2txt>=0.9",
+    "openpyxl>=3.1.5",
+    "sqlglot>=30.22.0",
+    "langchain-elasticsearch>=1.0.0",
+]
