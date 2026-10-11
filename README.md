@@ -8,6 +8,34 @@ EKA 把「政务档案原文 / 业务数据」作为知识来源，帮助档案�
 
 ---
 
+## 📷 界面预览
+
+### 对话首页
+
+<p align="center">
+  <img src="picture/1.png" alt="对话首页" width="830">
+</p>
+
+开箱即用的政务档案问答入口，输入问题即可开始对话。
+
+### 知识库检索问答（RAG）
+
+<p align="center">
+  <img src="picture/2.png" alt="知识库检索问答" width="830">
+</p>
+
+Agent 自主调用 `rag_search` 检索档案原文，并实时展示思考过程与工具调用详情。
+
+### 档案文件问答（文件读写）
+
+<p align="center">
+  <img src="picture/3.png" alt="档案文件问答" width="830">
+</p>
+
+上传档案文件后，Agent 调用 `read_file` 读取内容，完成工程名称、建设单位、验收结论等要素的概括抽取。
+
+---
+
 ## 📁 目录结构
 
 ```
